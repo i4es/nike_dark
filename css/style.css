@@ -34,6 +34,7 @@
 	margin: 100px auto;
 	background-color: #152335;
 	border-radius: 10px;
+	cursor: crosshair;
 }
 .ba-product-card__logo {
 	margin-top: 24px;
@@ -141,7 +142,7 @@
 .ba-card-info-order-add {
 	width: 185px;
 	height: 40px;
-	background-color: #2A3545;
+	background-color: #152335;
 	color: #A2A5AA;
 	outline: none;
 	border: 1px solid  #616873;
@@ -152,6 +153,6 @@
 	transition: background-color 0.2s ease-in;
 }
 .ba-card-info-order-add:hover {
+	background-color: #2A3545;
 	cursor: pointer;
-	background-color: #11151b;
 }
